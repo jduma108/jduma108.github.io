@@ -1,0 +1,46 @@
+.landing {
+    text-align: center;
+}
+.title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 300px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.skillTitles {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    color: white;
+}
+.bounce {
+    margin-top: 8%;
+    animation: bounce 2s infinite;
+}
+.downArrow{
+    display: block;
+    margin: auto;
+    width: 50px;
+}
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
