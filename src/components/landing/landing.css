@@ -1,27 +1,36 @@
-.landing {
+.landingWrapper {
     text-align: center;
+    background-color: rgba(1, 11, 51, 0.4);
+}
+.paint {
+  position: relative;
+  z-index: -1;
+  width: 100%;
 }
 .title {
     font-family: 'Oswald', sans-serif;
     font-size: 300px;
-    font-weight: 200;
+    font-weight: 100;
     margin: 0;
+    margin-top: -55%;
     padding: 0;
     color: white;
 }
 .skillTitles {
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 80px;
+    font-weight: 200;
     color: white;
 }
 .bounce {
-    margin-top: 8%;
+    margin-top: 10%;
     animation: bounce 2s infinite;
 }
 .downArrow{
     display: block;
     margin: auto;
-    width: 50px;
+    width: 40px;
+    padding-bottom: 59px;
 }
 
   @keyframes bounce {

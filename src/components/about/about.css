@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutWrapper {
+    width: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 6%;
+    border: 2px solid white;
+    padding: 3%;
+}
+.aboutTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 2%;
+}
+.aboutText {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: white;
+    line-height: 34px;
+}

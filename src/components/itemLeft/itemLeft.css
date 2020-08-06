@@ -1,0 +1,23 @@
+.portfolioItemWrapper {
+    padding: 6%;
+}
+.image {
+    width: 40%;
+}
+.text {
+    text-align: center;
+}
+.project {
+    font-family: 'Oswald', sans-serif;
+    font-size: 200px;
+    color: rgba(255,255,255,0.2);
+    margin-top: -30%;
+    margin-left: -5%;
+}
+.role {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    color: white;
+    margin-top: -10%;
+    margin-left: 8%;
+}
