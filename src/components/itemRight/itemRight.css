@@ -1,0 +1,42 @@
+.swImage {
+    width: 35%;
+    float: right;
+    margin-top: 18%;
+}
+.swProject {
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 180px;
+    color: rgba(255,255,255,0.2);
+    margin-top: 20%;
+    margin-right: -4%;
+}
+.swRole{
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    color: white;
+    margin-top: -11%;
+    margin-right: 9%;
+}
+.acImage {
+    width: 35%;
+    float: right;
+    margin-top: 14%;
+}
+.acProject {
+    float: right;
+    font-family: 'Oswald', sans-serif;
+    font-size: 160px;
+    color: rgba(255,255,255,0.2);
+    margin-top: -28%;
+    margin-right: 27%;
+}
+.acRole{
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    color: white;
+    margin-top: -19%;
+    margin-right: 47%;
+}

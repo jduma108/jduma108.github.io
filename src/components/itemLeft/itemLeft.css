@@ -1,23 +1,59 @@
-.portfolioItemWrapper {
-    padding: 6%;
+.enkluImage {
+    width: 50%;
+    position: relative;
+    z-index: 10;
 }
-.image {
-    width: 40%;
-}
-.text {
-    text-align: center;
-}
-.project {
+.enkluProject {
     font-family: 'Oswald', sans-serif;
     font-size: 200px;
     color: rgba(255,255,255,0.2);
-    margin-top: -30%;
-    margin-left: -5%;
+    margin-top: -34%;
+    margin-left: 36%;
 }
-.role {
+.enkluRole {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 46px;
     color: white;
-    margin-top: -10%;
-    margin-left: 8%;
+    margin-top: -12%;
+    margin-left: 42%;
+}
+.tcImage {
+    width: 40%;
+    position: relative;
+    z-index: 10;
+    margin-top: 12%;
+}
+.tcProject {
+    font-family: 'Oswald', sans-serif;
+    font-size: 180px;
+    color: rgba(255,255,255,0.2);
+    margin-top: -23%;
+    margin-left: 38%;
+}
+.tcRole {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    color: white;
+    margin-top: -11%;
+    margin-left: 52%;
+}
+.nasaImage {
+    width: 30%;
+    position: relative;
+    z-index: 10;
+    margin-top: 42%;
+}
+.nasaProject {
+    font-family: 'Oswald', sans-serif;
+    font-size: 180px;
+    color: rgba(255,255,255,0.2);
+    margin-top: -29%;
+    margin-left: 30%;
+}
+.nasaRole {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 46px;
+    color: white;
+    margin-top: -12%;
+    margin-left: 39%;
 }

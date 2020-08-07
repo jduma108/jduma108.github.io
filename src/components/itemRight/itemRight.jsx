@@ -1,11 +1,11 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
  
-import './itemLeft.css'
+import './itemRight.css'
 
-const ItemLeft = ({project, role, image, imageStyle, projectStyle, roleStyle}) => (
+const ItemRight = ({project, role, image, imageStyle, projectStyle, roleStyle}) => (
     <div className="portfolioItemWrapper">
-        <Slide left>
+        <Slide right>
             <img className={imageStyle} src={image} alt={project}/>
             <div className="textWrapper">
                 <h3 className={projectStyle}>{project}</h3>
@@ -15,4 +15,4 @@ const ItemLeft = ({project, role, image, imageStyle, projectStyle, roleStyle}) =
     </div>
 );
 
-export default ItemLeft;
+export default ItemRight;
