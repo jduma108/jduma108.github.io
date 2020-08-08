@@ -1,42 +1,75 @@
-.swImage {
-    width: 35%;
-    float: right;
-    margin-top: 18%;
-}
-.swProject {
-    float: right;
+.portfolioItemWrapper {
     font-family: 'Oswald', sans-serif;
-    font-size: 180px;
-    color: rgba(255,255,255,0.2);
-    margin-top: 20%;
-    margin-right: -4%;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }
-.swRole{
-    float: right;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 46px;
-    color: white;
-    margin-top: -11%;
-    margin-right: 9%;
-}
-.acImage {
-    width: 35%;
+.swImage {
+    width: 50%;
     float: right;
     margin-top: 14%;
 }
-.acProject {
+.sw1Project {
     float: right;
-    font-family: 'Oswald', sans-serif;
-    font-size: 160px;
-    color: rgba(255,255,255,0.2);
-    margin-top: -28%;
-    margin-right: 27%;
+    font-weight: 200;
+    font-size: 200px;
+    margin-top: 18%;
+    margin-right: -15%;
 }
-.acRole{
+.acImage {
+    width: 50%;
     float: right;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 46px;
-    color: white;
-    margin-top: -19%;
-    margin-right: 47%;
+    margin-top: 16%;
+}
+.ac1Project {
+    float: right;
+    font-size: 200px;
+    font-weight: 200;
+    margin-top: 21%;
+    margin-right: -9%;
+}
+.ac2Project {
+    float: right;
+    font-size: 200px;
+    font-weight: 200;
+    margin-top: 36%;
+    margin-right: -58%;
+}
+.grImage {
+    width: 60%;
+    float: right;
+    margin-top: 6%;
+}
+.gr1Project {
+    float: right;
+    font-size: 200px;
+    font-weight: 200;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+.gr2Project {
+    float: right;
+    font-size: 200px;
+    font-weight: 200;
+    margin-top: 20%;
+    margin-right: -41%;
+}
+.brandImage {
+    width: 50%;
+    float: right;
+    margin-top: 6%;
+}
+.brand1Project {
+    float: right;
+    font-size: 200px;
+    font-weight: 200;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+.brand2Project {
+    float: right;
+    font-size: 200px;
+    font-weight: 200;
+    margin-top: 17%;
+    margin-right: -52%;
 }

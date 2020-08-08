@@ -7,17 +7,19 @@
     width: 60%;
     display: block;
     margin: auto;
-    margin-top: 8%;
-    margin-bottom: 4%;
+    margin-top: 10%;
     border: 2px solid white;
     padding: 3%;
 }
 .aboutTitle {
     font-family: 'Oswald', sans-serif;
-    font-size: 60px;
-    font-weight: 200;
-    color: white;
-    margin-bottom: 2%;
+    font-size: 150px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: -5%;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
 }
 .aboutText {
     font-family: 'Source Sans Pro', sans-serif;

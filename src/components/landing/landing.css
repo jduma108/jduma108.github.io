@@ -9,12 +9,14 @@
 }
 .title {
     font-family: 'Oswald', sans-serif;
-    font-size: 300px;
-    font-weight: 100;
+    font-size: 350px;
+    font-weight: 400;
     margin: 0;
-    margin-top: -55%;
+    margin-top: -58%;
     padding: 0;
-    color: white;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: white;
 }
 .skillTitles {
     font-family: 'Oswald', sans-serif;
@@ -23,7 +25,7 @@
     color: white;
 }
 .bounce {
-    margin-top: 10%;
+    margin-top: 8%;
     animation: bounce 2s infinite;
 }
 .downArrow{

@@ -7,6 +7,9 @@ import southwest from '../../assests/images/portfolio/southwest.png';
 import tigerCenter from '../../assests/images/portfolio/tigerCenter.png';
 import adminConsole from '../../assests/images/portfolio/adminConsole.png';
 import phlote from '../../assests/images/portfolio/phlote.png';
+import gigReporter from '../../assests/images/portfolio/gigReporter.png';
+import connect from '../../assests/images/portfolio/connect.png';
+import brandGuide from '../../assests/images/portfolio/brandGuide.png';
 
 import './portfolio.css';
 
@@ -15,44 +18,76 @@ class Portfolio extends React.Component {
         return (
             <div className="portfolioWrapper">
                 <ItemLeft
-                    project="Enklu"
-                    role="Web Design"
+                    projectLine1="Enklu"
+                    projectLine2={false}
                     image={enklu}
                     imageStyle="enkluImage"
-                    projectStyle="enkluProject"
-                    roleStyle="enkluRole"
+                    altTag="enklu"
+                    projectLine1Style="enkluProject"
+                    projectLine2Style=""
                 />
                 <ItemRight
-                    project="Southwest"
-                    role="Graphic Design"
+                    projectLine1="Southwest"
+                    projectLine2={false}
                     image={southwest}
                     imageStyle="swImage"
-                    projectStyle="swProject"
-                    roleStyle="swRole"
+                    altTag="southwest"
+                    projectLine1Style="sw1Project"
+                    projectLine2Style=""
                 />
                 <ItemLeft
-                    project="Tiger Center"
-                    role="Web & Graphic Design"
+                    projectLine1="Tiger"
+                    projectLine2="Center"
                     image={tigerCenter}
                     imageStyle="tcImage"
-                    projectStyle="tcProject"
-                    roleStyle="tcRole"
+                    altTag="tigerCenter"
+                    projectLine1Style="tc1Project"
+                    projectLine2Style="tc2Project"
                 />
                 <ItemRight
-                    project="Priority Thinking"
-                    role="Web & Graphic Design"
+                    projectLine1="Priority"
+                    projectLine2="Thinking"
                     image={adminConsole}
                     imageStyle="acImage"
-                    projectStyle="acProject"
-                    roleStyle="acRole"
+                    altTag="priorityThinking"
+                    projectLine1Style="ac1Project"
+                    projectLine2Style="ac2Project"
                 />
                 <ItemLeft
-                    project="N.A.S.A."
-                    role="Logo Design"
+                    projectLine1="PHLOTE"
+                    projectLine2={false}
                     image={phlote}
                     imageStyle="nasaImage"
-                    projectStyle="nasaProject"
-                    roleStyle="nasaRole"
+                    altTag="phlote"
+                    projectLine1Style="nasaProject"
+                    projectLine2Style=""
+                />
+                <ItemRight
+                    projectLine1="Gig"
+                    projectLine2="Reporter"
+                    image={gigReporter}
+                    imageStyle="grImage"
+                    altTag="gigReporter"
+                    projectLine1Style="gr1Project"
+                    projectLine2Style="gr2Project"
+                />
+                <ItemLeft
+                    projectLine1="Connect"
+                    projectLine2={false}
+                    image={connect}
+                    imageStyle="connectImage"
+                    altTag="connect"
+                    projectLine1Style="connectProject"
+                    projectLine2Style=""
+                />
+                <ItemRight
+                    projectLine1="Brand"
+                    projectLine2="Guide"
+                    image={brandGuide}
+                    imageStyle="brandImage"
+                    altTag="brandGuide"
+                    projectLine1Style="brand1Project"
+                    projectLine2Style="brand2Project"
                 />
             </div>
         )
