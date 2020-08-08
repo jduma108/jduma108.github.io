@@ -19,11 +19,20 @@
     margin-top: -5%;
     color: rgba(0,0,0,0);
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: #00605c;
 }
 .aboutText {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     color: white;
     line-height: 34px;
+}
+.iconWrapper {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4%;
+}
+.aboutIcons {
+    width: 80%;
 }
