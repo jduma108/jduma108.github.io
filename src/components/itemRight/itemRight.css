@@ -1,13 +1,17 @@
-.portfolioItemWrapper {
+.rightItemWrapper {
     font-family: 'Oswald', sans-serif;
     color: rgba(0,0,0,0);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    cursor: pointer;
+    display: block;
 }
 .swImage {
-    width: 50%;
+    width: 45%;
     float: right;
-    margin-top: 14%;
+    margin-top: 10%;
 }
 .sw1Project {
     float: right;
@@ -19,20 +23,20 @@
 .acImage {
     width: 50%;
     float: right;
-    margin-top: 16%;
+    margin-top: 14%;
 }
 .ac1Project {
     float: right;
     font-size: 200px;
     font-weight: 200;
-    margin-top: 21%;
+    margin-top: 19%;
     margin-right: -9%;
 }
 .ac2Project {
     float: right;
     font-size: 200px;
     font-weight: 200;
-    margin-top: 36%;
+    margin-top: 34%;
     margin-right: -58%;
 }
 .grImage {
@@ -45,7 +49,7 @@
     font-size: 200px;
     font-weight: 200;
     margin-top: 3%;
-    margin-right: 3%;
+    margin-right: -7%;
 }
 .gr2Project {
     float: right;

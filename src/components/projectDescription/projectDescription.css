@@ -1,0 +1,37 @@
+.projectWrapper{
+    width: 85%;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.project {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    margin-left: -10px;
+}
+.role {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    color: #00605c;
+    margin-top: -4%;
+    margin-bottom: 4%;
+}
+.description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: white;
+    line-height: 40px;
+}
+.back {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    cursor: pointer;
+}

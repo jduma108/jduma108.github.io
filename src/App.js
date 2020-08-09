@@ -3,6 +3,7 @@ import React from 'react';
 import Landing from './components/landing/landing';
 import About from './components/about/about';
 import Porfolio from './components/portfolio/portfolio';
+import Footer from './components/footer/footer';
 
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
       <Landing/>
       <About/>
       <Porfolio/>
+      <Footer/>
     </div>
   );
 }
