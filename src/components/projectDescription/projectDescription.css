@@ -8,7 +8,7 @@
 .project {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    font-size: 200px;
+    font-size: 150px;
     color: rgba(0,0,0,0);
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
@@ -18,7 +18,7 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 48px;
     color: #00605c;
-    margin-top: -4%;
+    margin-top: -1%;
     margin-bottom: 4%;
 }
 .description {
@@ -27,11 +27,32 @@
     color: white;
     line-height: 40px;
 }
-.back {
+.backTop, .backBottom {
     font-family: 'Oswald', sans-serif;
     color: white;
     font-size: 24px;
     background-color: rgba(0,0,0,0);
     border: 0px;
     cursor: pointer;
+}
+.backBottom {
+    margin-top: 6%;
+}
+.link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #00605c;
+    text-decoration: none;
+}
+.southwest img, .tigerCenter img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 4%;
+}
+.priorityThinking img, .phlote img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 4%;
 }
