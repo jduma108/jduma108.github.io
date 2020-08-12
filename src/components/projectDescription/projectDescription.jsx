@@ -33,7 +33,12 @@ class ProjectDescription extends React.Component {
                         </div>
                         : phlote ? 
                         <div className="phlote">
-                            <p className="description">Click <a href="https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/PHLOTE/" target="_blank" rel="noopener noreferrer" className="link">here</a> to to learn more about the NASA Mission.</p>
+                            <p className="description">Click <a href="https://www.nasa.gov/directorates/spacetech/niac/2017_Phase_I_Phase_II/PHLOTE/" target="_blank" rel="noopener noreferrer" className="link">here</a> to learn more about the NASA Mission.</p>
+                            <img src={image1} alt={projectName}/>
+                        </div>
+                        : connect ? 
+                        <div className="connect">
+                            <p className="description">Click <a href="http://jillianduma.com/connect-redesign/" target="_blank" rel="noopener noreferrer" className="link">here</a> to view the redesign website. Please note: The original Connect website has been rebranded to RIT School of Media Sciences and follows a different style that my redesign was based off of.</p>
                             <img src={image1} alt={projectName}/>
                         </div>
                         : null

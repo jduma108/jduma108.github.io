@@ -18,6 +18,7 @@ import connectRedesign from '../../assests/images/portfolio/connect.png';
 import brandGuide from '../../assests/images/portfolio/brandGuide.png';
 
 import './portfolio.css';
+import { connect } from 'react-redux';
 
 
 class Portfolio extends React.Component {
@@ -44,9 +45,11 @@ class Portfolio extends React.Component {
         }
 
         this.handleShowProject = this.handleShowProject.bind(this);
+        this.myRef = React.createRef();  
     }
 
     handleShowProject = (projectName, role, description, image1) => {
+        window.scrollTo(0, this.myRef.current.offsetTop)  
         this.setState({
             showProject: true,
             projectName: projectName,
@@ -90,7 +93,7 @@ class Portfolio extends React.Component {
     render() {
         const {showProject, projectName, role, description, image1, isEnklu, isSouthwest, isTigerCenter, isPriority, isPhlote, isGigReporter, isConnect, isBrandGuide} = this.state
         return (
-            <div id="portfolioContainer">
+            <div id="portfolioContainer" ref={this.myRef}>
                 {
                 showProject ? 
                     <ProjectDescription
@@ -222,7 +225,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[6].project,
                                     PORTFOLIO_DATA[6].role,
-                                    PORTFOLIO_DATA[6].description
+                                    PORTFOLIO_DATA[6].description,
+                                    connectRedesign
                                 )}
                             }
                         />

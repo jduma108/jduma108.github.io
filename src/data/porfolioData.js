@@ -39,7 +39,7 @@ const PORTFOLIO_DATA = [
         "id": 6,
         "project": "Connect",
         "role": "Web Development",
-        "description": "As a final project for Webpage Production I, I redesigned RIT's School of Media Sciences: Connect website using HTML, CSS, SASS, Bourbon and Saffron. This was the first website I build from the ground-up. All content was provided from the School of Media Science: Connect official website. Please note: The original Connect website has been rebranded to RIT School of Media Sciences and follows a different style that my redesign was based off of."
+        "description": "As a final project for Webpage Production I, I redesigned RIT's School of Media Sciences: Connect website using HTML, CSS, SASS, Bourbon and Saffron. This was the first website I build from the ground-up. All content was provided from the School of Media Science: Connect official website."
     },
     {
         "id": 7,
