@@ -3,7 +3,7 @@ const PORTFOLIO_DATA = [
         "id": 0,
         "project": "Enklu",
         "role": "Web & Graphic Design",
-        "description": "As a freelance designer, I assisted in creating wireframe deisngs and marketing matierla for Enklu. Using Adobe Illustrator I designed wireframes for Enklu's officeal website and used Sketch to design mock-ups for their moble app. In addition to this, I created marketing material such as magazine advertisements, flyers, logos, icons and more using Adobe Illustrator, InDesign and Photoshop. During my time at Enklu, I worked with a multidisciplinary team that expanded and improved my knowledge of web and graphic design."
+        "description": "As a freelance designer, I assisted in creating wireframe deisngs and marketing matierla for Enklu. Enklu is a start up company based in San Francisco that focuses on creating social experiences using augmented reality. Using Adobe Illustrator I designed wireframes for Enklu's officeal website and used Sketch to design mock-ups for their moble app. In addition to this, I created marketing material such as magazine advertisements, flyers, logos, icons and more using Adobe Illustrator, InDesign and Photoshop. During my time at Enklu, I worked with a multidisciplinary team that expanded and improved my knowledge of web and graphic design."
     },
     {
         "id": 1,
@@ -33,7 +33,7 @@ const PORTFOLIO_DATA = [
         "id": 5,
         "project": "Gig Reporter",
         "role": "Web Development",
-        "description": "Using HTML, CSS, JavaScript, and API keys from The New York Times and Ticketmaster website, I was able to design and create a website which allows you to search for concert tickets and articles about your favorite bands. This was the final project for my Webpage Production II course."
+        "description": "Using HTML, CSS, JavaScript, PHP and API keys from The New York Times and Ticketmaster website, I was able to design and create a website which allows you to search for concert tickets and articles about your favorite bands. This was the final project for my Webpage Production II course."
     },
     {
         "id": 6,

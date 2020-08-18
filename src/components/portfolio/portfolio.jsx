@@ -6,6 +6,7 @@ import ProjectDescription from '../projectDescription/projectDescription';
 import PORTFOLIO_DATA from '../../data/porfolioData';
 
 import enklu from '../../assests/images/portfolio/enklu.png';
+import enkluDesigns from '../../assests/images/portfolio/enkluDesigns.png';
 import southwest from '../../assests/images/portfolio/southwest.png';
 import southwest2 from '../../assests/images/portfolio/southwest2.png';
 import tigerCenter from '../../assests/images/portfolio/tigerCenter.png';
@@ -18,8 +19,6 @@ import connectRedesign from '../../assests/images/portfolio/connect.png';
 import brandGuide from '../../assests/images/portfolio/brandGuide.png';
 
 import './portfolio.css';
-import { connect } from 'react-redux';
-
 
 class Portfolio extends React.Component {
     constructor(){
@@ -32,8 +31,6 @@ class Portfolio extends React.Component {
             description: '',
             image1: '', 
             image2: '',
-            image3: '', 
-            image4: '',
             isEnklu: false,
             isSouthwest: false,
             isTigerCenter: false,
@@ -48,14 +45,15 @@ class Portfolio extends React.Component {
         this.myRef = React.createRef();  
     }
 
-    handleShowProject = (projectName, role, description, image1) => {
+    handleShowProject = (projectName, role, description, image1, image2) => {
         window.scrollTo(0, this.myRef.current.offsetTop)  
         this.setState({
             showProject: true,
             projectName: projectName,
             role: role,
             description: description,
-            image1: image1
+            image1: image1,
+            image2: image2
         })
         if (projectName === "Enklu") {
             this.setState({isEnklu: true})
@@ -91,7 +89,7 @@ class Portfolio extends React.Component {
     }
 
     render() {
-        const {showProject, projectName, role, description, image1, isEnklu, isSouthwest, isTigerCenter, isPriority, isPhlote, isGigReporter, isConnect, isBrandGuide} = this.state
+        const {showProject, projectName, role, description, image1, image2, isEnklu, isSouthwest, isTigerCenter, isPriority, isPhlote, isGigReporter, isConnect, isBrandGuide} = this.state
         return (
             <div id="portfolioContainer" ref={this.myRef}>
                 {
@@ -102,6 +100,7 @@ class Portfolio extends React.Component {
                         role={role}
                         description={description}
                         image1={image1}
+                        image2={image2}
                         enklu={isEnklu}
                         southwest={isSouthwest}
                         tigerCenter={isTigerCenter}
@@ -125,7 +124,9 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[0].project,
                                     PORTFOLIO_DATA[0].role,
-                                    PORTFOLIO_DATA[0].description
+                                    PORTFOLIO_DATA[0].description, 
+                                    enklu,
+                                    enkluDesigns
                                 )}
                             }
                         />
@@ -209,7 +210,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[5].project,
                                     PORTFOLIO_DATA[5].role,
-                                    PORTFOLIO_DATA[5].description
+                                    PORTFOLIO_DATA[5].description,
+                                    gigReporter
                                 )}
                             }
                         />
@@ -242,7 +244,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[7].project,
                                     PORTFOLIO_DATA[7].role,
-                                    PORTFOLIO_DATA[7].description
+                                    PORTFOLIO_DATA[7].description,
+                                    brandGuide
                                 )}
                             }
                         />

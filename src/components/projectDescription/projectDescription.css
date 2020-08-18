@@ -26,6 +26,7 @@
     font-size: 24px;
     color: white;
     line-height: 40px;
+    margin-bottom: 2%;
 }
 .backTop, .backBottom {
     font-family: 'Oswald', sans-serif;
@@ -44,15 +45,28 @@
     color: #00605c;
     text-decoration: none;
 }
-.southwest img, .tigerCenter img {
+.southwest img, .tigerCenter img, .gigReporter img {
     width: 70%;
     display: block;
     margin: auto;
     margin-top: 4%;
 }
-.priorityThinking img, .phlote img, .connect img {
+.priorityThinking img, .phlote img, .connect img, .brandGuide img {
     width: 50%;
     display: block;
     margin: auto;
     margin-top: 4%;
+}
+.imageWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.imageWrapper .image1 {
+    width: 50%;
+}
+.imageWrapper .image2 {
+    width: 30%;
 }
