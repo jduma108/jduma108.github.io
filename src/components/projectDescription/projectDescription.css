@@ -35,15 +35,23 @@
     background-color: rgba(0,0,0,0);
     border: 0px;
     cursor: pointer;
+    transition: 1s ease;
 }
 .backBottom {
     margin-top: 6%;
+}
+.backTop:hover, .backBottom:hover {
+    color: #00605c;
 }
 .link {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 24px;
     color: #00605c;
     text-decoration: none;
+    transition: 1s ease;
+}
+.link:hover {
+    color: white;
 }
 .southwest img, .tigerCenter img, .gigReporter img {
     width: 70%;

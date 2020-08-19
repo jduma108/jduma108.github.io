@@ -1,10 +1,11 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 
-import email from '../../assests/images/email.svg';
-import linkedin from '../../assests/images/linkedin.svg';
-import resume from '../../assests/images/resume.svg';
+import email from '../../assests/images/email_g.svg';
+import linkedin from '../../assests/images/linkedin_g.svg';
+import resume from '../../assests/images/resume_g.svg';
 import resumePdf from '../../assests/pdfs/DumaResume.pdf';
+import github from '../../assests/images/github_g.svg';
 
 import './about.css';
 
@@ -23,6 +24,7 @@ class About extends React.Component {
                         <div className="iconWrapper">
                             <a href="mailto:jduma108@gmail.com"><img src={email} alt="email" className="aboutIcons"/></a>
                             <a href="https://www.linkedin.com/in/jillian-duma-174394112/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="aboutIcons"/></a>
+                            <a href="https://github.com/jduma108" target="_blank" rel="noopener noreferrer"><img src={github} alt="linkedin" className="aboutIcons"/></a>
                             <a href={resumePdf} target="_blank" rel="noopener noreferrer"><img src={resume} alt="resume" className="aboutIcons"/></a>
                         </div>
                     </Fade>

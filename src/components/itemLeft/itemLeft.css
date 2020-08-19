@@ -18,6 +18,14 @@
     margin-top: -33%;
     margin-left: 17%;
 }
+.textWrapper {
+    transition: ease 1s;
+}
+.textWrapper:hover {
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #00605c;
+}
 .tcImage {
     width: 50%;
     margin-top: 10%;
