@@ -78,3 +78,78 @@
 .imageWrapper .image2 {
     width: 30%;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px){
+    .project {
+        font-size: 100px;
+        margin-left: 0px;
+    }
+    .role {
+        font-size: 32px;
+        margin-top: -2%;
+        margin-bottom: 2%;
+    }
+    .description {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .backTop, .backBottom {
+        font-size: 20px;
+    }
+    .link {
+        font-size: 20px;
+    }
+    .imageWrapper {
+        width: 100%;
+        display: block;
+    }
+    .imageWrapper .image1 {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .imageWrapper .image2 {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+}
+@media screen and (max-width: 450px){
+    .project {
+        font-size: 50px;
+        -webkit-text-stroke-width: 1px;
+        margin-top: 8%;
+    }
+    .role {
+        font-size: 24px;
+        margin-top: 0%;
+        margin-bottom: 4%;
+    }
+    .description {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .link {
+        font-size: 16px;
+    }
+    ul {
+        margin-top: 8%;
+    }
+    li {
+        margin-bottom: 4%;
+    }
+    .link {
+        color: #039993;
+    }
+    .imageWrapper .image1 {
+        margin-top: 4%;
+        margin-bottom: 10%;
+    }
+    .projectWrapper{
+        margin-top: 12%;
+    }
+    .southwest img, .tigerCenter img, .gigReporter img, .priorityThinking img, .phlote img, .connect img, .brandGuide img {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}

@@ -39,7 +39,7 @@
 /* Media Queries  */
 @media screen and (max-width: 1100px){
     .aboutWrapper {
-        width: 80%;
+        width: 75%;
         margin-top: 6%;
     }
 }
@@ -81,7 +81,6 @@
         margin-top: 8%;
     }
     .aboutWrapper {
-        margin-top: -10%;
         padding: 6%;
         border: 1px solid white;
     }
