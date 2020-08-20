@@ -1,3 +1,15 @@
 .portfolioWrapper {
     padding: 10%;
 }
+@media screen and (max-width: 830px){
+    .portfolioWrapper {
+        padding: 6%;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 500px){
+    .portfolioWrapper {
+        margin-top: 8%;
+        padding-bottom: 15%;
+    }
+}

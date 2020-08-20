@@ -35,23 +35,124 @@
     padding-bottom: 100px;
 }
 
-  @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-    40% {
-      -moz-transform: translateY(-30px);
-      -ms-transform: translateY(-30px);
-      -webkit-transform: translateY(-30px);
-      transform: translateY(-30px);
-    }
-    60% {
-      -moz-transform: translateY(-15px);
-      -ms-transform: translateY(-15px);
-      -webkit-transform: translateY(-15px);
-      transform: translateY(-15px);
-    }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
   }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+/* Media Queries */
+@media screen and (max-width: 1300px){
+  .title {
+    font-size: 300px;
+  } 
+}
+@media screen and (max-width: 1150px){
+  .title {
+    font-size: 260px;
+  } 
+}
+@media screen and (max-width: 1050px){
+  .title {
+    font-size: 240px;
+    margin-top: -55%;
+  } 
+  .skillTitles {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 950px){
+  .title {
+    margin-top: -60%;
+  } 
+}
+@media screen and (max-width: 850px){
+  .title {
+    font-size: 220px;
+    -webkit-text-stroke-width: 2px;
+  } 
+}
+@media screen and (max-width: 770px){
+  .title {
+    font-size: 200px;
+  } 
+  .skillTitles {
+    font-size: 32px;
+  }
+  .downArrow{
+    width: 30px;
+  }
+}
+@media screen and (max-width: 715px){
+  .title {
+    font-size: 180px;
+  } 
+}
+@media screen and (max-width: 680px){
+  .title {
+    font-size: 160px;
+    margin-top: -58%;
+  } 
+}
+@media screen and (max-width: 610px){
+  .title {
+    font-size: 140px;
+  } 
+  .skillTitles {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 530px){
+  .title {
+    font-size: 120px;
+  } 
+  .downArrow{
+    width: 20px;
+  }
+}
+@media screen and (max-width: 480px){
+  .title {
+    font-size: 110px;
+    -webkit-text-stroke-width: 1px;
+  } 
+  .downArrow{
+    width: 20px;
+  }
+  .skillTitles {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 450px){
+  .title {
+    font-size: 100px;
+  } 
+}
+@media screen and (max-width: 420px){
+  .title {
+    font-size: 90px;
+  } 
+  .skillTitles {
+    font-size: 18px;
+  }
+  .bounce {
+    margin-top: 10%;
+  }
+  .downArrow{
+    width: 15px;
+  }
+}

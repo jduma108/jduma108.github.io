@@ -65,3 +65,238 @@
     margin-top: -24%;
     margin-left: 20%;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1400px){
+    .tc1Project {
+        margin-top: -44%;
+    }
+    .tc2Project {
+        margin-left: 44%;
+    }
+}
+@media screen and (max-width: 1280px){
+    .enkluProject {
+        margin-left: 22%;
+    }
+    .tcImage {
+        margin-top: 15%;
+    }
+    .tc1Project {
+        margin-top: -44%;
+        margin-left: -19%;
+    }
+    .tc2Project {
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width: 1220px){
+    .tc1Project {
+        margin-top: -46%;
+    }
+    .tc2Project {
+        margin-left: 54%;
+    }
+}
+@media screen and (max-width: 1100px){
+    .enkluProject {
+        margin-left: 28%;
+        margin-top: -36%;
+    }
+    .tcImage {
+        margin-top: 18%;
+    }
+    .tc1Project {
+        margin-top: -48%;
+        font-size: 180px;
+    }
+    .tc2Project {
+        margin-left: 56%;
+        font-size: 180px;
+    }
+    .nasaImage {
+        margin-top: 8%;
+    }
+    .nasaProject, .connectProject {
+        font-size: 180px;
+    }
+}
+@media screen and (max-width: 980px){
+    .enkluProject {
+        font-size: 180px;
+    }
+    .tcImage {
+        margin-top: 22%;
+    }
+    .tc1Project {
+        margin-top: -48%;
+        font-size: 160px;
+    }
+    .tc2Project {
+        margin-left: 56%;
+        font-size: 160px;
+    }
+    .nasaProject {
+        font-size: 160px;
+        margin-top: -35%;
+    }
+    .connectProject {
+        font-size: 160px;
+    }
+}
+@media screen and (max-width: 900px){
+    .tc1Project {
+        margin-top: -52%;
+    }
+}
+@media screen and (max-width: 870px){
+    .enkluProject {
+        font-size: 160px;
+        margin-left: 28%;
+    }
+    .tcImage {
+        margin-top: 26%;
+    }
+    .tc1Project {
+        margin-top: -48%;
+        font-size: 140px;
+    }
+    .tc2Project {
+        margin-left: 56%;
+        font-size: 140px;
+    }
+    .nasaImage {
+        margin-top: 12%;
+    }
+    .nasaProject {
+        font-size: 140px;
+        margin-top: -32%;
+    }
+    .connectImage {
+        margin-top: 10%;
+    }
+    .connectProject {
+        font-size: 140px;
+    }
+}
+@media screen and (max-width: 770px){
+    .tcImage {
+        margin-top: 18%;
+    }
+    .tc1Project {
+        font-size: 130px;
+    }
+    .tc2Project {
+        font-size: 130px;
+        margin-left: 52%;
+    }
+    .nasaImage {
+        margin-top: 6%;
+    }
+    .nasaProject {
+        margin-top: -34%;
+        margin-left: 28%;
+        font-size: 120px;
+    }
+    .connectImage {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width: 720px){
+    .tc1Project, .tc2Project, .connectProject {
+        font-size: 120px;
+    }
+}
+@media screen and (max-width: 700px){
+    .enkluProject {
+        font-size: 140px;
+    }
+}
+@media screen and (max-width: 650px){
+    .enkluProject {
+        font-size: 120px;
+    }
+    .tc1Project {
+        font-size: 100px;
+        margin-top: -52%;
+        margin-left: -39%;
+    }
+    .tc2Project {
+        font-size: 100px;
+        margin-top: -22%;
+        margin-left: 41%;
+    }
+    .nasaProject {
+        font-size: 100px;
+    }
+}
+@media screen and (max-width: 550px){
+    .enkluProject, .connectProject {
+        font-size: 100px;
+    }
+    .leftItemWrapper, .textWrapper:hover {
+        -webkit-text-stroke-width: 1px;
+    }
+    .tc2Project {
+        margin-left: 46%;
+    }
+    .nasaProject {
+        font-size: 80px;
+        margin-left: 28%;
+    }
+}
+@media screen and (max-width: 470px){
+    .enkluProject {
+        font-size: 80px;
+        margin-left: 28%;
+        margin-top: -36%;
+    }
+    .tc1Project, .connectProject{
+        font-size: 80px;
+    }
+    .tc2Project {
+        font-size: 80px;
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 430px){
+    .tc2Project {
+        font-size: 80px;
+        margin-left: 44%;
+    }
+    .tcImage {
+        margin-right: 50%;
+    }
+    .connectImage {
+        margin-top: 10%;
+    }
+}
+@media screen and (max-width: 400px){
+    .enkluProject {
+        font-size: 60px;
+        margin-left: 20%;
+    }
+    .tcImage {
+        margin-top: 20%;
+    }
+    .tc1Project {
+        margin-top: -50%;
+        font-size: 60px;
+    }
+    .tc2Project {
+        font-size: 60px;
+        margin-top: -19%;
+        margin-left: 32%;
+    }
+    .nasaImage {
+        margin-top: 6%;
+        width: 50%;
+    }
+    .nasaProject {
+        font-size: 60px;
+        margin-top: -35%;
+    }
+    .connectProject {
+        font-size: 60px;
+    }
+}

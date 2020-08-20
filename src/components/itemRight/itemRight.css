@@ -13,7 +13,7 @@
     float: right;
     margin-top: 10%;
 }
-.sw1Project {
+.swProject {
     float: right;
     font-weight: 200;
     font-size: 200px;
@@ -76,4 +76,222 @@
     font-weight: 200;
     margin-top: 19%;
     margin-right: -52%;
+}
+.textWrapper {
+    transition: ease 1s;
+}
+.textWrapper:hover {
+    color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #00605c;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1300px){
+    .ac1Project {
+        margin-top: 15%;
+        margin-right: -10%;
+        font-size: 180px;
+    }
+    .ac2Project {
+        margin-top: 32%;
+        margin-right: -61%;
+        font-size: 180px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .swProject {
+        font-size: 180px;
+    }
+    .gr1Project {
+        margin-top: 0%;
+        margin-right: 0%;
+    }
+    .gr2Project {
+        margin-right: -50%;
+    }
+    .brand1Project {
+        margin-top: -1%;
+    }
+    .brand2Project {
+        margin-right: -58%;
+    }
+}
+@media screen and (max-width: 1120px){
+    .swProject {
+        font-size: 160px;
+    }
+    .ac1Project, .ac2Project {
+        font-size: 160px;
+    }
+    .grImage {
+        margin-top: 12%;
+    }
+    .gr1Project {
+        margin-top: 4%;
+        font-size: 180px;
+    }
+    .gr2Project {
+        margin-top: 22%;
+        font-size: 180px;
+    }
+    .brand1Project, .brand2Project {
+        font-size: 180px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .ac1Project {
+        margin-top: 12%;
+        margin-right: -5%;
+    }
+    .ac2Project {
+        margin-right: -68%;
+    }
+    .gr1Project, .gr2Project {
+        font-size: 160px;
+    }
+}
+@media screen and (max-width: 985px){
+    .swProject {
+        font-size: 160px;
+        margin-right: -20%;
+        margin-top: 14%;
+    }
+}
+@media screen and (max-width: 925px){
+    .swProject {
+        font-size: 150px;
+    }
+    .grImage {
+        margin-top: 14%;
+    }
+    .ac1Project, .ac2Project, .gr1Project, .gr2Project  {
+        font-size: 140px;
+    }
+    .brandImage {
+        margin-top: 12%;
+    }
+    .brand1Project {
+        font-size: 160px;
+        margin-top: 2%;
+    }
+    .brand2Project {
+        font-size: 160px;
+        margin-top: 22%;
+    }
+}
+@media screen and (max-width: 860px){
+    .swProject {
+        font-size: 140px;
+    }
+    .brand2Project {
+        margin-top: 24%;
+    }
+}
+@media screen and (max-width: 730px){
+    .swProject, .ac1Project, .ac2Project, .gr1Project {
+        font-size: 120px;
+    }
+    .gr2Project {
+        font-size: 120px;
+        margin-right: -43%;
+    }
+    .brand1Project, .brand2Project {
+        font-size: 140px;
+    }
+}
+@media screen and (max-width: 660px){
+    .swProject {
+        font-size: 100px;
+    }
+    .acImage {
+        margin-top: 28%;
+    }
+    .ac1Project {
+        margin-top: 28%;
+        font-size: 100px;
+    }
+    .ac2Project {
+        margin-top: 48%;
+        font-size: 100px;
+    }
+    .gr1Project {
+        margin-top: 6%;
+        font-size: 100px;
+    }
+    .gr2Project {
+        margin-top: 26%;
+        font-size: 100px;
+    }
+    .brand1Project, .brand2Project {
+        font-size: 120px;
+    }
+}
+@media screen and (max-width: 550px){
+    .rightItemWrapper, .textWrapper:hover {
+        -webkit-text-stroke-width: 1px;
+    }
+    .ac1Project, .ac2Project {
+        font-size: 80px;
+    }
+    .gr1Project {
+        margin-top: 8%;
+        font-size: 80px;
+    }
+    .gr2Project {
+        font-size: 80px;
+    }
+    .brand1Project, .brand2Project {
+        font-size: 100px;
+    }
+}
+@media screen and (max-width: 525px){
+    .swProject, .brand1Project, .brand2Project {
+        font-size: 80px;
+    }
+    .rightItemWrapper, .textWrapper:hover {
+        -webkit-text-stroke-width: 1px;
+    }
+    .gr1Project {
+        font-size: 70px;
+    }
+    .gr2Project {
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 420px){
+    .swProject {
+        font-size: 60px;
+        margin-top: 24%;
+    }
+    .swImage {
+        margin-top: 14%;
+    }
+    .acImage {
+        margin-top: 18%;
+    }
+    .ac1Project {
+        margin-top: 20%;
+        font-size: 60px;
+    }
+    .ac2Project {
+        margin-top: 40%;
+        font-size: 60px;
+    }
+    .gr1Project {
+        font-size: 60px;
+    }
+    .gr2Project {
+        font-size: 60px;
+        margin-right: -40%;
+    }
+    .brand1Project {
+        font-size: 60px;
+        margin-top: 5%;
+        margin-right: 3%;
+    }
+    .brand2Project {
+        font-size: 60px;
+        margin-right: -48%;
+    }
 }

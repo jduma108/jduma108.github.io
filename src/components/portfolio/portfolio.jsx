@@ -136,7 +136,7 @@ class Portfolio extends React.Component {
                             image={southwest}
                             imageStyle="swImage"
                             altTag="southwest"
-                            projectLine1Style="sw1Project"
+                            projectLine1Style="swProject"
                             projectLine2Style=""
                             openProject={() => {
                                 this.handleShowProject(

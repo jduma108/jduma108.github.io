@@ -5,6 +5,7 @@
     margin: auto;
     border-top: 2px solid #00605c;
     padding-bottom: 2%;
+    padding-top: 2%;
 }
 .copyRight{
     margin-top: 3%;
@@ -14,11 +15,48 @@
 }
 .footerIconWrapper {
     display: flex;
-    margin-top: 2%;
 }
 .footerIcons {
     width: 60px;
     margin-left: 20px;
     float: right;
     color: white;
+}
+/* Media Queries  */
+@media screen and (max-width: 900px){
+    .footerIcons {
+        width: 40px;
+    }
+}
+@media screen and (max-width: 700px){
+    .copyRight{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 600px){
+    .copyRight{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 500px){
+    .copyRight{
+        font-size: 14px;
+    }
+    .footerWrapper {
+        padding-bottom: 4%;
+    }
+    .footerIcons {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 450px){
+    .copyRight{
+        font-size: 12px;
+    }
+    .footerIcons {
+        width: 30px;
+    }
+    .footerIconWrapper {
+        margin-top: 2%;
+    }
 }
