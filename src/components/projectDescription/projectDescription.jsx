@@ -26,11 +26,11 @@ class ProjectDescription extends React.Component {
                                 <img src={image1} alt={projectName} className="image1"/>
                                 <img src={image2} alt={projectName} className="image2"/>
                             </div>
-                            <p className="description">To view more of the designed I created for Enklu, please visit the links below. Please note that some of the designs may no longer be in effect. Click <a className="link" href="https://www.enklu.com/" target="_blank" rel="noopener noreferrer">here</a> to learn more about Enklu.</p>
+                            <p className="description">To view more of the designs I created for Enklu, please visit the links below. Please note that some of the designs may no longer be in effect. Click <a className="link" href="https://www.enklu.com/" target="_blank" rel="noopener noreferrer">here</a> to learn more about Enklu.</p>
                             <ul>
-                                <li><a href={enkluDesktop} target="_blank" rel="noopener noreferrer" className="link">Enklu offical webiste desktop mockup design</a></li>
-                                <li><a href={enkluMobile} target="_blank" rel="noopener noreferrer" className="link" >Enklu offical webiste mobile mockup design</a></li>
-                                <li><a href="https://invis.io/NPRJ5Z5MSVX" target="_blank" rel="noopener noreferrer" className="link" >Enklu mobile app mockup on Invision</a></li>
+                                <li><a href={enkluDesktop} target="_blank" rel="noopener noreferrer" className="link">Enklu official webiste desktop mockup design</a></li>
+                                <li><a href={enkluMobile} target="_blank" rel="noopener noreferrer" className="link" >Enklu official webiste mobile mockup design</a></li>
+                                <li><a href="https://invis.io/NPRJ5Z5MSVX" target="_blank" rel="noopener noreferrer" className="link">Enklu mobile app demo on Invision</a></li>
                                 <li><a href={enkluBrandGuide} target="_blank" rel="noopener noreferrer" className="link" >Enklu Brand Guide</a></li>
                             </ul>
                         </div>
@@ -41,7 +41,7 @@ class ProjectDescription extends React.Component {
                         </div>
                         : tigerCenter ? 
                         <div className="tigerCenter">
-                            <p className="description">Click <a href="https://tigercenter.rit.edu/tigerCenterApp/landing" target="_blank" rel="noopener noreferrer" className="link">here</a> to view the redesigned website and visit this <a href={tigerCenterPdf} target="_blank" className="link" rel="noopener noreferrer">link</a> to view the wireframe documentation.</p>
+                            <p className="description">Click <a href="https://tigercenter.rit.edu/tigerCenterApp/landing" target="_blank" rel="noopener noreferrer" className="link">here</a> to view the redesigned website and visit this <a href={tigerCenterPdf} target="_blank" className="link" rel="noopener noreferrer">link</a> to view the wire-frame documentation.</p>
                             <img src={image1} alt={projectName}/>
                         </div>
                         : priorityThinking ? 
