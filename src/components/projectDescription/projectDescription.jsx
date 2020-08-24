@@ -11,14 +11,15 @@ import './projectDescription.css';
 
 class ProjectDescription extends React.Component {
     render() {
-        const { handleBackButton, projectName, role, description, image1, image2, enklu, southwest, tigerCenter, priorityThinking, phlote, gigReporter, connect, brandGuide } = this.props
+        const { handleBackButton, projectName, role, description1, description2, image1, image2, enklu, southwest, tigerCenter, priorityThinking, phlote, gigReporter, connect, brandGuide } = this.props
         return (
             <Slide left>
                 <div className="projectWrapper">
                     <button className="backTop" onClick={handleBackButton}>BACK TO PORTFOLIO</button>
                     <h2 className="project">{projectName}</h2>
                     <h3 className="role">{role}</h3>
-                    <p className="description">{description}</p>
+                    <p className="description">{description1}</p>
+                    <p className="description">{description2}</p>
                     {
                         enklu ? 
                         <div className="enklu">
@@ -28,8 +29,8 @@ class ProjectDescription extends React.Component {
                             </div>
                             <p className="description">To view more of the designs I created for Enklu, please visit the links below. Please note that some of the designs may no longer be in effect. Click <a className="link" href="https://www.enklu.com/" target="_blank" rel="noopener noreferrer">here</a> to learn more about Enklu.</p>
                             <ul>
-                                <li><a href={enkluDesktop} target="_blank" rel="noopener noreferrer" className="link">Enklu official webiste desktop mockup design</a></li>
-                                <li><a href={enkluMobile} target="_blank" rel="noopener noreferrer" className="link" >Enklu official webiste mobile mockup design</a></li>
+                                <li><a href={enkluDesktop} target="_blank" rel="noopener noreferrer" className="link">Enklu official website desktop mockup design</a></li>
+                                <li><a href={enkluMobile} target="_blank" rel="noopener noreferrer" className="link" >Enklu official website mobile mockup design</a></li>
                                 <li><a href="https://invis.io/NPRJ5Z5MSVX" target="_blank" rel="noopener noreferrer" className="link">Enklu mobile app demo on Invision</a></li>
                                 <li><a href={enkluBrandGuide} target="_blank" rel="noopener noreferrer" className="link" >Enklu Brand Guide</a></li>
                             </ul>

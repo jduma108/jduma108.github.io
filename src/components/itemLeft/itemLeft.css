@@ -34,14 +34,14 @@
 .tc1Project {
     font-size: 180px;
     font-weight: 400;
-    margin-top: -43%;
-    margin-left: -21%;
+    margin-top: -41%;
+    margin-left: -18%;
 }
 .tc2Project {
     font-size: 200px;
     font-weight: 400;
-    margin-top: -18%;
-    margin-left: 40%;
+    margin-top: -15%;
+    margin-left: 38%;
 }
 .nasaImage {
     width: 60%;
@@ -67,6 +67,16 @@
 }
 
 /* Media Queries */
+@media screen and (max-width: 1500px) {
+    .tc1Project {
+        margin-top: -43%;
+        margin-left: -21%;
+    }
+    .tc2Project {
+        margin-top: -18%;
+        margin-left: 40%;
+    }
+}
 @media screen and (max-width: 1400px){
     .tc1Project {
         margin-top: -44%;

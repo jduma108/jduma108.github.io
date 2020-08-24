@@ -28,7 +28,8 @@ class Portfolio extends React.Component {
             showProject: false,
             projectName: '',
             role: '',
-            description: '',
+            description1: '',
+            description2: '',
             image1: '', 
             image2: '',
             isEnklu: false,
@@ -45,13 +46,14 @@ class Portfolio extends React.Component {
         this.myRef = React.createRef();  
     }
 
-    handleShowProject = (projectName, role, description, image1, image2) => {
+    handleShowProject = (projectName, role, description1, description2, image1, image2) => {
         window.scrollTo(0, this.myRef.current.offsetTop)  
         this.setState({
             showProject: true,
             projectName: projectName,
             role: role,
-            description: description,
+            description1: description1,
+            description2: description2,
             image1: image1,
             image2: image2
         })
@@ -89,7 +91,7 @@ class Portfolio extends React.Component {
     }
 
     render() {
-        const {showProject, projectName, role, description, image1, image2, isEnklu, isSouthwest, isTigerCenter, isPriority, isPhlote, isGigReporter, isConnect, isBrandGuide} = this.state
+        const {showProject, projectName, role, description1, description2, image1, image2, isEnklu, isSouthwest, isTigerCenter, isPriority, isPhlote, isGigReporter, isConnect, isBrandGuide} = this.state
         return (
             <div id="portfolioContainer" ref={this.myRef}>
                 {
@@ -98,7 +100,8 @@ class Portfolio extends React.Component {
                         handleBackButton={this.handleBackButton}
                         projectName={projectName}
                         role={role}
-                        description={description}
+                        description1={description1}
+                        description2={description2}
                         image1={image1}
                         image2={image2}
                         enklu={isEnklu}
@@ -124,7 +127,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[0].project,
                                     PORTFOLIO_DATA[0].role,
-                                    PORTFOLIO_DATA[0].description, 
+                                    PORTFOLIO_DATA[0].description1,
+                                    PORTFOLIO_DATA[0].description2, 
                                     enklu,
                                     enkluDesigns
                                 )}
@@ -142,7 +146,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[1].project,
                                     PORTFOLIO_DATA[1].role,
-                                    PORTFOLIO_DATA[1].description,
+                                    PORTFOLIO_DATA[1].description1,
+                                    PORTFOLIO_DATA[1].description2, 
                                     southwest2
                                 )}
                             }
@@ -159,7 +164,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[2].project,
                                     PORTFOLIO_DATA[2].role,
-                                    PORTFOLIO_DATA[2].description,
+                                    PORTFOLIO_DATA[2].description1,
+                                    PORTFOLIO_DATA[2].description2, 
                                     tigerCenter2
                                 )}
                             }
@@ -176,7 +182,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[3].project,
                                     PORTFOLIO_DATA[3].role,
-                                    PORTFOLIO_DATA[3].description,
+                                    PORTFOLIO_DATA[3].description1,
+                                    PORTFOLIO_DATA[3].description2, 
                                     adminConsole
                                 )}
                             }
@@ -193,7 +200,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[4].project,
                                     PORTFOLIO_DATA[4].role,
-                                    PORTFOLIO_DATA[4].description,
+                                    PORTFOLIO_DATA[4].description1,
+                                    PORTFOLIO_DATA[4].description2, 
                                     phlote2
                                 )}
                             }
@@ -210,7 +218,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[5].project,
                                     PORTFOLIO_DATA[5].role,
-                                    PORTFOLIO_DATA[5].description,
+                                    PORTFOLIO_DATA[5].description1,
+                                    PORTFOLIO_DATA[5].description2, 
                                     gigReporter
                                 )}
                             }
@@ -227,7 +236,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[6].project,
                                     PORTFOLIO_DATA[6].role,
-                                    PORTFOLIO_DATA[6].description,
+                                    PORTFOLIO_DATA[6].description1,
+                                    PORTFOLIO_DATA[6].description2, 
                                     connectRedesign
                                 )}
                             }
@@ -244,7 +254,8 @@ class Portfolio extends React.Component {
                                 this.handleShowProject(
                                     PORTFOLIO_DATA[7].project,
                                     PORTFOLIO_DATA[7].role,
-                                    PORTFOLIO_DATA[7].description,
+                                    PORTFOLIO_DATA[7].description1,
+                                    PORTFOLIO_DATA[7].description2, 
                                     brandGuide
                                 )}
                             }

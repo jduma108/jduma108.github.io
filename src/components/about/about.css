@@ -56,6 +56,9 @@
         font-size: 20px;
         line-height: 30px;
     }
+    .aboutWrapper {
+        margin-top: 10%;
+    }
 }
 @media screen and (max-width: 600px){
     .aboutTitle {
@@ -65,7 +68,7 @@
         margin-top: 6%;
     }
     .aboutWrapper {
-        margin-top: -10%;
+        margin-top: 6%;
     }
 }
 @media screen and (max-width: 420px){
@@ -83,10 +86,11 @@
     .aboutWrapper {
         padding: 6%;
         border: 1px solid white;
+        margin-top: 0%;
     }
 }
 @media screen and (max-width: 380px){
     .aboutWrapper {
-        margin-top: -14%;
+        margin-top: -4%;
     }
 }
