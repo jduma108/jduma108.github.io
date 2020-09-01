@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.notFoundWrapper {
+	background-image: url('../../assests/images/paintBackground.png');
+	height: 100vh;
+	background-size: cover;
+	text-align: center;
+}
+.notFoundWrapper h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 150px;
+	font-weight: 400;
+	margin: 0;
+	color: rgba(0, 0, 0, 0);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: white;
+	padding-top: 14%;
+	margin-bottom: 2%;
+}
+.notFoundWrapper .link {
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: white;
+	transition: 1s ease;
+}
+.notFoundWrapper .link:hover {
+	color: #00605c;
+}
+
+/* Media Queries  */
+@media screen and (max-width: 1400px) {
+	.notFoundWrapper h1 {
+		padding-top: 25%;
+	}
+}
+@media screen and (max-width: 1150px) {
+	.notFoundWrapper h1 {
+		font-size: 130px;
+		padding-top: 20%;
+	}
+	.notFoundWrapper .link {
+		font-size: 48px;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.notFoundWrapper h1 {
+		font-size: 110px;
+		padding-top: 25%;
+	}
+}
+@media screen and (max-width: 850px) {
+	.notFoundWrapper h1 {
+		font-size: 100px;
+		padding-top: 30%;
+	}
+}
+@media screen and (max-width: 770px) {
+	.notFoundWrapper h1 {
+		-webkit-text-stroke-width: 1px;
+		padding-top: 40%;
+	}
+	.notFoundWrapper .link {
+		font-size: 32px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.notFoundWrapper h1 {
+		padding-top: 45%;
+		font-size: 80px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.notFoundWrapper h1 {
+		padding-top: 60%;
+	}
+}
+@media screen and (max-width: 420px) {
+	.notFoundWrapper h1 {
+		padding-top: 40%;
+		font-size: 90px;
+	}
+}
+@media screen and (max-width: 380px) {
+	.notFoundWrapper h1 {
+		padding-top: 40%;
+	}
+}

@@ -1,16 +1,3 @@
 body {
-    background-color: rgb(2, 5, 36); 
-}
-.loadingWrapper {
-    text-align: center;
-}
-.name {
-    font-family: 'Oswald', sans-serif;
-    font-size: 100px;
-    font-weight: 400;
-    color: rgba(0,0,0,0);
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-    background-color: rgba(0,0,0,0);
-    margin-top: -22%;
+	background-color: rgb(2, 5, 36);
 }

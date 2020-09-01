@@ -1,31 +1,21 @@
 import React from 'react';
-import { Ripple } from 'react-preloaders';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 
-import Landing from './components/landing/landing';
-import About from './components/about/about';
-import Porfolio from './components/portfolio/portfolio';
-import Footer from './components/footer/footer';
-
+import PortfolioPage from './pages/portfolio/portfolio';
+import NotFoundPage from './pages/notFound/notFound';
 import './App.css';
 
 class App extends React.Component {
-  render (){
-    return (
-      <div className="appWrapper">
-        <div className="app">
-          <Landing/>
-          <About/>
-          <Porfolio/>
-          <Footer/>
-        </div>
-        <Ripple 
-          background="rgb(2, 5, 36)" 
-          color={"#00605c"}
-          animation="slide-down"
-        />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<BrowserRouter>
+				<Switch>
+					<Route exact path="/" component={PortfolioPage} />
+					<Route path="*" component={NotFoundPage} />
+				</Switch>
+			</BrowserRouter>
+		);
+	}
 }
 
 export default App;
