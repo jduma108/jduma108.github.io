@@ -23,7 +23,7 @@ class About extends React.Component {
                     <Fade bottom>
                         <div className="iconWrapper">
                             <a href="mailto:jduma108@gmail.com"><img src={email} alt="email" className="aboutIcons"/></a>
-                            <a href="https://www.linkedin.com/in/jillian-duma-174394112/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="aboutIcons"/></a>
+                            <a href="https://www.linkedin.com/in/jillian-duma/" target="_blank" rel="noopener noreferrer"><img src={linkedin} alt="linkedin" className="aboutIcons"/></a>
                             <a href="https://github.com/jduma108" target="_blank" rel="noopener noreferrer"><img src={github} alt="linkedin" className="aboutIcons"/></a>
                             <a href={resumePdf} target="_blank" rel="noopener noreferrer"><img src={resume} alt="resume" className="aboutIcons"/></a>
                         </div>
