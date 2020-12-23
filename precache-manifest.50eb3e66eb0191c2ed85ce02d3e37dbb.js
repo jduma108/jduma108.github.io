@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2bbb68b727b9d873c141ed01f612be9e",
+    "revision": "a119d477f36f1fe47ae14cadc94605db",
     "url": "/index.html"
   },
   {
-    "revision": "ab36dedb40d513311d44",
+    "revision": "fc2aee52e4009faf32ca",
     "url": "/static/css/main.fa36433c.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.56251554.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ab36dedb40d513311d44",
-    "url": "/static/js/main.0a8f3ed3.chunk.js"
+    "revision": "fc2aee52e4009faf32ca",
+    "url": "/static/js/main.bec58d0f.chunk.js"
   },
   {
     "revision": "ec79f6342be66671d40a",
     "url": "/static/js/runtime-main.9c4e0b81.js"
   },
   {
-    "revision": "85adbc3a9920d1e0c610e0a562517072",
-    "url": "/static/media/DumaResume.85adbc3a.pdf"
+    "revision": "b8f7dee54f84625f03c1b0fd9d85cafa",
+    "url": "/static/media/DumaResume.b8f7dee5.pdf"
   },
   {
     "revision": "1f7e9a9b827888ebabf56b08c3e96888",
