@@ -18,7 +18,7 @@ class About extends React.Component {
                         <h1 className="aboutTitle">HELLO</h1>
                     </Fade>
                     <Fade bottom>
-                        <p className="aboutText">My name is Jill! I'm an aspiring front-end web developer and visual designer based in Chicago. I am passionate about blending the world of tech and design to create content that is accessible for all people. I enjoy being challenged and experiencing new opportunities. If you are interested in working with me or getting to know more about my work, please feel free to contact me!</p>
+                        <p className="aboutText">My name is Jill! I'm a front-end web developer and visual designer based in Chicago. I am passionate about blending the world of tech and design to create content that is accessible for all people. I enjoy being challenged and experiencing new opportunities. If you are interested in working with me or getting to know more about my work, please feel free to contact me!</p>
                     </Fade>
                     <Fade bottom>
                         <div className="iconWrapper">
